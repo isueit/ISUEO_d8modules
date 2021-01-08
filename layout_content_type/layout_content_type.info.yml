@@ -8,9 +8,10 @@ dependencies:
   - drupal:path
   - drupal:text
   - drupal:ds
+  - drupal:exclude_node_title
   - drupal:layout_builder
   - drupal:layout_builder_base
   - drupal:layout_builder_base_library
-# - layout_builder_restrictions
-# - layout_builder_perms
+  - layout_builder_restrictions
+  - layout_builder_perms
 

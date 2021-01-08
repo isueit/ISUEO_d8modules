@@ -1,0 +1,10 @@
+nid_list: []
+translation_sync: true
+search: false
+content_types:
+  page: none
+  layout_ct: user
+content_type_modes:
+  page: {  }
+  layout_ct:
+    - full
