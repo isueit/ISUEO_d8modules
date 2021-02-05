@@ -5,6 +5,7 @@ dependencies:
     - field.field.node.news_article.body
     - field.field.node.news_article.field_embed_news_article
     - field.field.node.news_article.field_teaser
+    - field.field.node.news_article.field_thumbnail
     - node.type.news_article
   module:
     - news_embed_field
@@ -36,3 +37,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_teaser: true
+  field_thumbnail: true

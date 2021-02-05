@@ -5,7 +5,14 @@ dependencies:
     - field.storage.node.body
     - node.type.news_article
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    wysiwyg: '0'
+    full_html: '0'
+    basic: '0'
+    plain_text: '0'
 id: node.news_article.body
 field_name: body
 entity_type: node
@@ -17,5 +24,6 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: false
+  display_summary: true
+  required_summary: false
 field_type: text_with_summary
